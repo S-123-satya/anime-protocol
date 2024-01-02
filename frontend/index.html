@@ -17,126 +17,38 @@
       />
       <span>Anime protocol</span>
     </div>
-    <section>
-      <div class="container">
-        <div class="carousel">
-          <input type="radio" name="slides" checked="checked" id="slide-1" />
-          <input type="radio" name="slides" id="slide-2" />
-          <input type="radio" name="slides" id="slide-3" />
-          <input type="radio" name="slides" id="slide-4" />
-          <input type="radio" name="slides" id="slide-5" />
-          <input type="radio" name="slides" id="slide-6" />
-          <ul class="carousel__slides">
-            <li class="carousel__slide">
-              <figure>
-                <div>
-                  <img src="https://picsum.photos/id/1041/800/450" alt="" />
-                </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Tim Marshall</span>
-                </figcaption>
-                <div class="flex items-center">
-                  <button
-                    class="bg-[#16a34a] w-36 h-10 text-white rounded-lg "
-                  >
-                    buy Now
-                  </button>
-                </div>
-              </figure>
-            </li>
-            <li class="carousel__slide">
-              <figure>
-                <div>
-                  <img src="https://picsum.photos/id/1043/800/450" alt="" />
-                </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Christian Joudrey</span>
-                </figcaption>
-              </figure>
-            </li>
-            <li class="carousel__slide">
-              <figure>
-                <div>
-                  <img src="https://picsum.photos/id/1044/800/450" alt="" />
-                </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Steve Carter</span>
-                </figcaption>
-              </figure>
-            </li>
-            <li class="carousel__slide">
-              <figure>
-                <div>
-                  <img src="https://picsum.photos/id/1045/800/450" alt="" />
-                </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Aleksandra Boguslawska</span>
-                </figcaption>
-              </figure>
-            </li>
-            <li class="carousel__slide">
-              <figure>
-                <div>
-                  <img src="https://picsum.photos/id/1049/800/450" alt="" />
-                </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Rosan Harmens</span>
-                </figcaption>
-              </figure>
-            </li>
-            <li class="carousel__slide">
-              <figure>
-                <div>
-                  <img src="https://picsum.photos/id/1052/800/450" alt="" />
-                </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Annie Spratt</span>
-                </figcaption>
-              </figure>
-            </li>
-          </ul>
-
-          <ul class="carousel__thumbnails">
-            <li>
-              <label for="slide-1"
-                ><img src="https://picsum.photos/id/1041/150/150" alt=""
-              /></label>
-            </li>
-            <li>
-              <label for="slide-2"
-                ><img src="https://picsum.photos/id/1043/150/150" alt=""
-              /></label>
-            </li>
-            <li>
-              <label for="slide-3"
-                ><img src="https://picsum.photos/id/1044/150/150" alt=""
-              /></label>
-            </li>
-            <li>
-              <label for="slide-4"
-                ><img src="https://picsum.photos/id/1045/150/150" alt=""
-              /></label>
-            </li>
-            <li>
-              <label for="slide-5"
-                ><img src="https://picsum.photos/id/1049/150/150" alt=""
-              /></label>
-            </li>
-            <li>
-              <label for="slide-6"
-                ><img src="https://picsum.photos/id/1052/150/150" alt=""
-              /></label>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
+    <div id="img" class="flex justify-center relative p-1 h-72">
+      <img
+        class="absolute h-72 w-72 z-10"
+        id="image1"
+        src="images/1.jpg"
+        alt="img"
+      />
+      <img
+        class="absolute h-72 w-72 "
+        id="image2"
+        src="images/2.jpg"
+        alt="img"
+      />
+      <img
+        class="absolute h-72 w-72 "
+        id="image3"
+        src="images/3.jpg"
+        alt="img"
+      />
+      <img
+        class="absolute h-72 w-72 "
+        id="image4"
+        src="images/4.jpg"
+        alt="img"
+      />
+    </div>
+    <div id="imgSelect" class="flex justify-center">
+      <img class="p-2 w-36" id="1" src="images/1.jpg" alt="img" />
+      <img class="p-2 w-36" id="2" src="images/2.jpg" alt="img" />
+      <img class="p-2 w-36" id="3" src="images/3.jpg" alt="img" />
+      <img class="p-2 w-36" id="4" src="images/4.jpg" alt="img" />
+    </div>
     <div class="grid justify-items-center">
       Follow us on social media
       <div class="flex gap-24">
@@ -170,5 +82,6 @@
         <a class="p-1 px-3" href="www.google.com">Instagram</a>
       </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
